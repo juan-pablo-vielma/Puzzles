@@ -1,13 +1,13 @@
-# 15.053_2019SP
+# Puzzles
 
-This page includes some _advanced_ alternative install and use instructions for the [Julia](https://julialang.org) and [JuMP](https://github.com/JuliaOpt/JuMP.jl) materials for 15.053. You can safely ingnore this page and we recommend you only read it if you have experience with 
+This page includes some _advanced_ alternative install and use instructions. You can safely ingnore this page and we recommend you only read it if you have experience with 
 command line tools. 
 
 #### Download the materials (Advanced version)
 
 If you know how to use `git` from the command prompt or terminal, you can also download a copy of these materials by running the following command from a terminal (after `cd`'ing to a folder of your choice):
 ```
-git clone https://github.com/juan-pablo-vielma/15.053_2019SP.git
+git clone https://github.com/juan-pablo-vielma/Puzzles.git
 ```
 
 ### Open Julia (Advanced version)
@@ -20,23 +20,23 @@ The default install instructions installs self-contained versions of `python` an
 
 ### Open a Jupyter notebook (Advanced version)
 
-To avoid having to navigate to the `15.053_2019SP` folder after opening Jypyter you can instead run the following code (where `"/path/to/15.053_2019SP"` is the complete path to the location in which you uncompressed the `15.053_2019SP` folder)
+To avoid having to navigate to the `Puzzles` folder after opening Jypyter you can instead run the following code (where `"/path/to/Puzzles"` is the complete path to the location in which you uncompressed the `Puzzles` folder)
 ```julia
 using IJulia
-IJulia.notebook(dir="/path/to/15.053_2019SP")
+IJulia.notebook(dir="/path/to/Puzzles")
 ```
 
-### Using the Default Course Packages (Advanced version)
+### Using the Default  Packages (Advanced version)
 
-You can also activate the course packages from the Julia REPL or a notebook that is not inside  the `15.053_2019SP` folder by running the following code (where `"/path/to/15.053_2019SP"` is the complete path to the location in which you uncompressed the `15.053_2019SP` folder):
+You can also activate the course packages from the Julia REPL or a notebook that is not inside  the `Puzzles` folder by running the following code (where `"/path/to/Puzzles"` is the complete path to the location in which you uncompressed the `Puzzles` folder):
 ```julia
 import Pkg
-Pkg.activate("/path/to/15.053_2019SP")
+Pkg.activate("/path/to/Puzzles")
 Pkg.instantiate()
 ```
 
-### Updating Course Files and Packages (Advanced version)
-If you know how to use `git` from the command prompt or terminal, you can also get the latest files by running the following command from a terminal within the `15.053_2019SP` folder (i.e. after `cd`'ing to the `15.053_2019SP` folder)
+### Updating  Files and Packages (Advanced version)
+If you know how to use `git` from the command prompt or terminal, you can also get the latest files by running the following command from a terminal within the `Puzzles` folder (i.e. after `cd`'ing to the `Puzzles` folder)
 ```
 git pull
 ```
