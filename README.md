@@ -11,7 +11,7 @@ install at least version 3.0 of the [Windows Management Framework](https://docs.
 
 ### Download the materials
 
-To get all materials [download this zip file](https://github.com/Puzzles/15.053_2019SP/archive/master.zip) and uncompress it to a folder of your choice. This will create a sub-folder `Puzzles` with all the materials. 
+To get all materials [download this zip file](https://github.com/juan-pablo-vielma/Puzzles/archive/master.zip) and uncompress it to a folder of your choice. This will create a sub-folder `Puzzles` with all the materials. 
 
 ### Open Julia
 
